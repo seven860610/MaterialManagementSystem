@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.hzzfy.mms</groupId>
+    <artifactId>MaterialManagementSystem</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>MaterialManagementSystem</name>
+    <description>物资管理系统-聚合服务</description>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>mms-instore</module>
+        <module>mms-inventory</module>
+        <module>mms-material</module>
+        <module>mms-organize</module>
+        <module>mms-outstore</module>
+        <module>mms-scrap</module>
+        <module>mms-stock</module>
+        <module>mms-stockcheck</module>
+    </modules>
+</project>
